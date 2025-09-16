@@ -166,6 +166,8 @@
 //! [1]: https://www.consul.io/
 //! [2]: https://github.com/jmgilman/consulrs/issues
 
+#![allow(non_local_definitions)]
+
 #[macro_use]
 extern crate tracing;
 
